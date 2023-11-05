@@ -1,5 +1,5 @@
-let homeScoreEl = document.getElementById("homeScore-el")
-let guestScoreEl = document.getElementById("guestScore-el")
+let homeScoreEl = document.getElementById("home-score-el")
+let guestScoreEl = document.getElementById("guest-score-el")
 let homeCount = 0
 let guestCount = 0
 
@@ -45,4 +45,5 @@ function newGame() {
     homeCount = 0
     homeScoreEl.textContent = homeCount
     guestScoreEl.textContent = guestCount
+    
 }
