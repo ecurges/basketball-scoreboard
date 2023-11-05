@@ -1,6 +1,7 @@
 body {
     text-align: center;
     background-color: #374151;
+    font-family: CursedTimer, sans-serif;
 }
 
 @font-face {
@@ -14,19 +15,18 @@ body {
     gap: 4rem;
 }
 
-.score {
+.score-wrapper {
     padding: 50px 0;
     width: 250px;
     border-radius: 5px;
     color: #F94F6D;
     background: black;
-    font-family: CursedTimer, sans-serif;
     font-size: 120px;
     margin: 20px 0;
     box-shadow: 0 0 5px black;
 }
 
-.points-buttons-wrapper {
+.point-buttons-wrapper {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -42,7 +42,7 @@ button {
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 5px black;
-    transition: all .2s ease-in-out;
+    transition: all .1s ease-in-out;
 }
 
 button:hover {
@@ -52,7 +52,6 @@ button:hover {
 h3 {
     color: #EEEEEE;
     font-weight: 800;
-    font-size: 36px;
+    font-size: 40px;
     text-shadow: 0 0 5px black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

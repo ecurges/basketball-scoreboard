@@ -47,3 +47,20 @@ function newGame() {
     guestScoreEl.textContent = guestCount
     
 }
+
+
+// HIGHLIGHT LEADER
+
+function highlightLeader() {
+    // if both teams have exactly 0 points (when the game starts), change both colors to "start color"
+    // else if home is leading, change the home color to "lead color" and the guest color to "not lead color"
+    // else if guest is leading, change the guest color to "lead color" and the home color to "not lead color"
+    // else if both teams have the same score, change both colors to "tie color"
+    
+    // Some JavaScript to get you started:
+    homeScoreEl.style.color = "#F94F6D" // the red color from your CSS
+    guestScoreEl.style.color = "#F94F6D" // the red color from your CSS
+    
+    
+    // Call this function inside other functions everytime either home or guest score changes
+}
