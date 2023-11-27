@@ -1,10 +1,10 @@
-# DEMO
+# Demo
 
 https://meek-dolphin-771924.netlify.app/
 
 # Technologies Used
 
-HTML, CSS, $ JavaScript
+HTML, CSS, & JavaScript
 
 # About
 
